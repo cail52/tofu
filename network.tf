@@ -22,4 +22,6 @@ resource "openstack_networking_subnet_v2" "SUBNET2"{
    
 }
   
-
+#resource "openstack_networking_floatingip_v2" "fip" {
+#  pool = "public"
+#}
